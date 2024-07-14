@@ -1,0 +1,132 @@
+@media screen and (max-width: 1155px) {
+    header{
+        padding: 0 20px;
+    }
+}
+@media screen and (max-width: 970px) {
+    header > img{
+        width: 400px;
+        height: 510px;
+    }
+}
+@media screen and (max-width: 890px) {
+    header > img{
+        width: 330px;
+        height: 430px;
+    }
+}
+@media screen and (max-width: 835px) {
+    .header-title{
+        gap: 8px;
+        margin-bottom: 8px;
+    }
+    .header-contents > p{
+        line-height: 25px;
+    }
+    .header-contents > button{
+        margin-top: 16px;
+        margin-bottom: 22px;
+    }
+}
+@media screen and (max-width: 815px) {
+    header{
+        padding: 8px;
+    }
+}
+@media screen and (max-width: 788px) {
+    header{
+        flex-direction: column-reverse;
+        height: max-content;
+    }
+    .header-contents{
+        max-width: 100%;
+        padding: 0 20px;
+        position: relative;
+        top: -50px;
+    }
+    .header-contents > p{
+        max-width: fit-content;
+        padding-right: 60px;
+    }
+    header > img{
+        position: relative;
+        top: -64px;
+        width: 410px;
+        height: 510px;
+    }
+}
+@media screen and (max-width: 520px) {
+    header > img{
+        width: 350px;
+        height: 450px;
+    }
+    .header-title > h1{
+        font-size: 55px;
+        line-height: 75px;
+    }
+}
+@media screen and (max-width: 455px) {
+    header{
+        padding: 5px;
+    }
+    .header-title > h1{
+        font-size: 45px;
+        line-height: 65px;
+    }
+    .header-contents > p{
+        line-height: 21px;
+    }
+}
+@media screen and (max-width: 380px) {
+    header > img{
+        width: 320px;
+        height: 400px;
+        top: -50px;
+    }
+    .header-title > h1{
+        font-size: 40px;
+        line-height: 55px;
+    }
+    .header-style{
+        display: none;
+    }
+    .header-contents{
+        top: -40px;
+    }
+    .header-contents > p{
+        padding-right: 10px;
+    }
+    .header-contents > button{
+        width: 150px;
+        height: 40px;
+    }
+}
+@media screen and (max-width: 339px) {
+    header > img{
+        width: 300px;
+        height: 380px;
+    }
+    .header-title > h1{
+        font-size: 34px;
+        line-height: 50px;
+    }
+    .header-contents > p{
+        padding-right: 0;
+    }
+    .header-contents{
+        padding: 0 10px;
+    }
+}
+@media screen and (max-width: 315px) {
+    header > img{
+        width: 270px;
+        height: 340px;
+    }
+    .header-contents{
+        padding: 0 5px;
+    }
+    .header-instruction{
+        font-size: 50px;
+        line-height: 21px;
+    }
+}
