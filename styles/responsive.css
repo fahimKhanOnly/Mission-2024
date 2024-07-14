@@ -125,8 +125,13 @@
     .header-contents{
         padding: 0 5px;
     }
-    .header-instruction{
-        font-size: 50px;
-        line-height: 21px;
+}
+@media screen and (max-width: 260px) {
+    .header-contents{
+        padding: 0 2px;
+    }
+    .header-title > h1{
+        font-size: 29px;
+        line-height: 40px;
     }
 }
