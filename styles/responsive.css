@@ -2,17 +2,43 @@
     header{
         padding: 0 20px;
     }
+    .mission-container{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .missions-contents{
+        gap: 10px;
+        margin-top: 45px;
+    }
+    .missions-contents > div{
+        padding: 0 20px;
+        height: 360px;
+    }
 }
 @media screen and (max-width: 970px) {
     header > img{
         width: 400px;
         height: 510px;
     }
+    .header-title > h1{
+        font-size: 55px;
+    }
+    .missions-contents{
+        gap: 6px;
+    }
+    .missions-contents > div{
+        height: 335px;
+        padding: 0 16px;
+    }
 }
 @media screen and (max-width: 890px) {
     header > img{
         width: 330px;
         height: 430px;
+    }
+    .mission-container{
+        margin-right: 5px;
+        margin-left: 5px;
     }
 }
 @media screen and (max-width: 835px) {
@@ -27,10 +53,24 @@
         margin-top: 16px;
         margin-bottom: 22px;
     }
+    .missions-contents > div{
+        height: 300px;
+        padding: 0 10px;
+    }
+    .missions-contents > div > img{
+        height: 120px;
+        width: 120px;
+        margin-bottom: 7px;
+    }
+    .missions-contents > div > p{
+        font-size: 0.90rem;
+        line-height: 20px;
+    }
 }
 @media screen and (max-width: 815px) {
     header{
         padding: 8px;
+        margin-bottom: 20px;
     }
 }
 @media screen and (max-width: 788px) {
@@ -54,6 +94,14 @@
         width: 410px;
         height: 510px;
     }
+    .missions-contents > div {
+        height: 340px;
+    }
+}
+@media screen and (max-width: 545px) {
+    .missions-contents > div{
+        height: 353px;
+    }
 }
 @media screen and (max-width: 520px) {
     header > img{
@@ -61,8 +109,29 @@
         height: 450px;
     }
     .header-title > h1{
-        font-size: 55px;
         line-height: 75px;
+    }
+    .mission-container > h1{
+        font-size: 40px;
+        line-height: 67px;
+    }
+    .missions-contents{
+        flex-direction: column;
+        gap: 18px;
+    }
+    .missions-contents > div{
+        padding: 0 30px;
+        height: 300px;
+    }
+    .missions-contents > img{
+        height: 140px;
+        width: 140px;
+        margin-bottom: 12px;
+    }
+    .missions-contents > h3{
+        margin-bottom: 15px;
+        font-size: 24px;
+        line-height: 35px;
     }
 }
 @media screen and (max-width: 455px) {
@@ -76,8 +145,18 @@
     .header-contents > p{
         line-height: 21px;
     }
+    .mission-container > h1{
+        font-size: 30px;
+    }
+    .mission-container{
+        margin-left: 8px;
+        margin-right: 8px;
+    }
 }
 @media screen and (max-width: 380px) {
+    header{
+        margin-bottom: 1px;
+    }
     header > img{
         width: 320px;
         height: 400px;
@@ -100,6 +179,10 @@
         width: 150px;
         height: 40px;
     }
+    .missions-contents{
+        margin-top: 30px;
+        gap: 14px;
+    }
 }
 @media screen and (max-width: 339px) {
     header > img{
@@ -110,11 +193,12 @@
         font-size: 34px;
         line-height: 50px;
     }
-    .header-contents > p{
-        padding-right: 0;
-    }
     .header-contents{
         padding: 0 10px;
+    }
+    .missions-contents > div > img{
+        height: 90px;
+        width: 90px;
     }
 }
 @media screen and (max-width: 315px) {
@@ -124,6 +208,12 @@
     }
     .header-contents{
         padding: 0 5px;
+    }
+    .missions-contents > div{
+        padding: 0 10px;
+    }
+    .mission-container > h1{
+        font-size: 25px;
     }
 }
 @media screen and (max-width: 260px) {
