@@ -188,6 +188,9 @@
     .app-container > h1{
         margin-bottom: 30px;
     }
+    footer{
+        height: 150px;
+    }
 }
 @media screen and (max-width: 520px) {
     header > img{
@@ -360,6 +363,9 @@
     }
     .app-introduction > button{
         height: 45px;
+    }
+    .footer-contents > small{
+        font-size: 0.75rem;
     }
 }
 @media screen and (max-width: 260px) {

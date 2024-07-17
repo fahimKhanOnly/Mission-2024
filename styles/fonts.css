@@ -19,24 +19,9 @@
 /* Yeseva-one ends */
 
 /* Poppins starts */
-.poppins-extralight {
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-}
-.poppins-light {
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-}
 .poppins-regular {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
-    font-style: normal;
-}
-.poppins-medium {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
     font-style: normal;
 }
 .poppins-semibold {
@@ -49,25 +34,15 @@
     font-weight: 700;
     font-style: normal;
 }
-.poppins-extrabold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-}
-.poppins-black {
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-}
 /* Poppins ends */
 
-/* Roboto starts */
+/* Roboto for only buttons starts */
 button{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
 }
-/* Roboto ends */
+/* Roboto for only buttons ends */
 
 /* Lobster starts */
 .lobster-regular {
