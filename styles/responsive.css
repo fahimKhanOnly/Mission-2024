@@ -27,6 +27,10 @@
     .featured-details{
         padding: 0 20px;
     }
+    .app-container{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
 @media screen and (max-width: 970px) {
     header > img{
@@ -132,6 +136,18 @@
     .featured-details > button{
         width: 230px;
     }
+    .app-showcase{
+        max-width: 320px;
+    }
+    .app-interface{
+        left: 20px;
+    }
+    .app-shape-2{
+        left: 23px;
+    }
+    .app-container > h1, .app-introduction > h1{
+        font-size: 40px;
+    }
 }
 @media screen and (max-width: 675px) {
     .mission-container{
@@ -152,10 +168,25 @@
         align-items: center;
         gap: 10px;
     }
+    .app-contents{
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+    }
+    .app-showcase{
+        width: 100vw;
+        margin: 0 auto;
+    }
 }
 @media screen and (max-width: 545px) {
     .missions-contents > div{
         height: 353px;
+    }
+    .app-container > h1, .app-introduction > h1{
+        font-size: 32px;
+    }
+    .app-container > h1{
+        margin-bottom: 30px;
     }
 }
 @media screen and (max-width: 520px) {
@@ -211,6 +242,9 @@
         width: 360px;
         height: 360px;
     }
+    .app-container > h1, .app-introduction > h1{
+        font-size: 28px;
+    }
 }
 @media screen and (max-width: 380px) {
     header{
@@ -250,6 +284,16 @@
         font-size: 30px;
         line-height: 40px;
     }
+    .app-container > h1{
+        font-size: 25px;
+        line-height: 30px;
+        display: inline-block;
+        width: 100%;
+    }
+    .app-introduction > h1{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
 }
 @media screen and (max-width: 339px) {
     header > img{
@@ -271,6 +315,9 @@
         width: 200px;
         height: 45px;
     }
+    .app-introduction > button{
+        width: 140px;
+    }
 }
 @media screen and (max-width: 315px) {
     header > img{
@@ -286,6 +333,9 @@
     .mission-container > h1{
         font-size: 25px;
     }
+    .featured-container{
+        margin-bottom: 70px;
+    }
     .featured-contents-persons{
         width: 250px;
         height: 250px;
@@ -293,6 +343,23 @@
     .featured-details > h3{
         font-size: 23px;
         line-height: 30px;
+    }
+    .app-shape-1, .app-shape-2, .app-shape-3{
+        display: none;
+    }
+    .app-showcase{
+        height: 510px;
+        max-width: 300px;
+    }
+    .app-interface{
+        position: static;
+    }
+    .app-introduction > p{
+        line-height: 25px;
+        font-size: 1rem;
+    }
+    .app-introduction > button{
+        height: 45px;
     }
 }
 @media screen and (max-width: 260px) {

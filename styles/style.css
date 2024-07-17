@@ -208,3 +208,75 @@ header > img{
 }
 /* Featured section ends here */
 
+/* Application section starts here */
+.app-container{
+    margin-bottom: 90px;
+}
+.app-container > h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 48px;
+    line-height: 74px;
+    margin-bottom: 60px;
+}
+.app-contents{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+.app-introduction{
+    max-width: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: baseline;
+    z-index: 1;
+}
+.app-introduction > h1{
+    font-size: 48px;
+    color: rgb(0, 0, 0);
+}
+.app-introduction > p{
+    color: rgb(62, 62, 62);
+    font-size: 1.10rem;
+    line-height: 30px;
+}
+.app-introduction > button{
+    width: 157px;
+}
+.app-shape-2, .app-shape-3{
+    height: 77px;
+    width: 77px;
+    position: absolute;
+    z-index: -1;
+}
+.app-shape-1{
+    height: 147px;
+    width: 147px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.app-shape-2{
+    left: 32px;
+    bottom: 0;
+}
+.app-shape-3{
+    bottom: 107px;
+    right: 0;
+}
+.app-interface{
+    width: 290px;
+    height: 505px;
+    position: absolute;
+    top: 29px;
+    left: 40px;
+}
+.app-showcase{
+    max-width: 338px;
+    height: 542px;
+    position: relative;
+    margin-right: 8px;
+}
+/* Application section ends here */
