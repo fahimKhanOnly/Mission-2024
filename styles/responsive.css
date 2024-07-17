@@ -1,6 +1,12 @@
+@media screen and (max-width: 1330px) {
+    .featured-first-contents-shape, .featured-second-contents-shape{
+        display: none;
+    }
+}
 @media screen and (max-width: 1155px) {
     header{
-        padding: 0 20px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .mission-container{
         margin-right: 10px;
@@ -13,6 +19,13 @@
     .missions-contents > div{
         padding: 0 20px;
         height: 360px;
+    }
+    .featured-container{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .featured-details{
+        padding: 0 20px;
     }
 }
 @media screen and (max-width: 970px) {
@@ -36,7 +49,15 @@
         width: 330px;
         height: 430px;
     }
+    header{
+        margin-right: 5px;
+        margin-left: 5px;
+    }
     .mission-container{
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    .featured-container{
         margin-right: 5px;
         margin-left: 5px;
     }
@@ -80,7 +101,7 @@
     }
     .header-contents{
         max-width: 100%;
-        padding: 0 20px;
+        padding: 0 5px;
         position: relative;
         top: -50px;
     }
@@ -96,6 +117,40 @@
     }
     .missions-contents > div {
         height: 340px;
+    }
+    .featured-contents-persons{
+        height: 310px;
+        width: 310px;
+    }
+    .featured-details > h3{
+        line-height: 48px;
+        font-size: 35px;
+    }
+    .featured-details > p{
+        line-height: 25px;
+    }
+    .featured-details > button{
+        width: 230px;
+    }
+}
+@media screen and (max-width: 675px) {
+    .mission-container{
+        margin-bottom: 50px;
+    }
+    .featured-first-contents, .featured-second-contents{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .featured-contents-persons{
+        width: 405px;
+        height: 400px;
+    }
+    .featured-container{
+        gap: 50px;
+    }
+    .featured-details{
+        align-items: center;
+        gap: 10px;
     }
 }
 @media screen and (max-width: 545px) {
@@ -152,6 +207,10 @@
         margin-left: 8px;
         margin-right: 8px;
     }
+    .featured-contents-persons{
+        width: 360px;
+        height: 360px;
+    }
 }
 @media screen and (max-width: 380px) {
     header{
@@ -183,6 +242,14 @@
         margin-top: 30px;
         gap: 14px;
     }
+    .featured-contents-persons{
+        width: 310px;
+        height: 310px;
+    }
+    .featured-details > h3{
+        font-size: 30px;
+        line-height: 40px;
+    }
 }
 @media screen and (max-width: 339px) {
     header > img{
@@ -200,6 +267,10 @@
         height: 90px;
         width: 90px;
     }
+    .featured-details > button{
+        width: 200px;
+        height: 45px;
+    }
 }
 @media screen and (max-width: 315px) {
     header > img{
@@ -215,6 +286,14 @@
     .mission-container > h1{
         font-size: 25px;
     }
+    .featured-contents-persons{
+        width: 250px;
+        height: 250px;
+    }
+    .featured-details > h3{
+        font-size: 23px;
+        line-height: 30px;
+    }
 }
 @media screen and (max-width: 260px) {
     .header-contents{
@@ -223,5 +302,9 @@
     .header-title > h1{
         font-size: 29px;
         line-height: 40px;
+    }
+    .featured-details > p{
+        font-size: 0.90rem;
+        line-height: 20px;
     }
 }
